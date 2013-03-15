@@ -25,33 +25,45 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
+    <OutputPath>..\..\nSPDSogp\LocalEx\Program\bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="hostdbmgd">
       <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.1\SDK\include\hostdbmgd.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="hostmgd">
       <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.1\SDK\include\hostmgd.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="mapimgd, Version=1.0.4769.35933, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\bin\mapimgd.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mapinet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\bin\mapinet.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="nrxgatemgd">
       <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.1\SDK\include\nrxgatemgd.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Flatten.cs" />
     <Compile Include="MulticadLength.cs" />
     <Compile Include="TextMath.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -3,5 +3,16 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <StartAction>Program</StartAction>
     <StartProgram>C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\nCad.exe</StartProgram>
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>true</EnableSQLServerDebugging>
+    <StartWorkingDirectory>C:\Users\mihanick\Desktop\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <StartAction>Project</StartAction>
+    <StartProgram>C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\nCad.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\bin\</ReferencePath>
   </PropertyGroup>
 </Project>
