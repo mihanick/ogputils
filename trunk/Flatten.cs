@@ -229,7 +229,8 @@
                     else if (id_platf.ObjectClass.Name == "AcDbBlockReference")
                     {//Блок
                         BlockReference blk = ent as BlockReference;
-
+                        
+                        
                         //Если блок просто размещен в пронстранстве (не на XoY)
                         if (blk.Position.Z != 0)
                         {

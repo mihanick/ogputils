@@ -1,4 +1,4 @@
-﻿namespace OgpUtils
+﻿namespace ogpUtils
 {
     
     using System;
@@ -497,7 +497,7 @@
         }
 
         [CommandMethod("OGPSumLength")]
-        public void LineOrPlineLengthSumma()
+        public void SumLength()
             //Функция выбирает из селекции линии и полилинии
             //и суммирует их длину 
         { 
@@ -530,6 +530,11 @@
                             else if (asObjId.ObjectClass.Name == "AcDbPolyline")
                             {
                                 Polyline kline = (Polyline)ent;
+                                rslt = kline.Length;
+                            }
+                            else if (asObjId.ObjectClass.Name == "AcDbArc")
+                            {
+                                Arc kline = (Arc)ent;
                                 rslt = kline.Length;
                             };
                         }
