@@ -1,6 +1,0 @@
-D:\svn\help\mcs10\nanoSPDS\nSPDSogp\LocalEx\Program\bin\ogpUtils.dll
-D:\svn\help\mcs10\nanoSPDS\nSPDSogp\LocalEx\Program\bin\ogpUtils.pdb
-D:\svn\help\mcs10\nanoSPDS\src Сборка для ОАО ТПИ ОмскГражданПроект\OgpUtils\obj\Release\ResolveAssemblyReference.cache
-D:\svn\help\mcs10\nanoSPDS\src Сборка для ОАО ТПИ ОмскГражданПроект\OgpUtils\obj\Release\ogpUtils.dll
-D:\svn\help\mcs10\nanoSPDS\src Сборка для ОАО ТПИ ОмскГражданПроект\OgpUtils\obj\Release\ogpUtils.pdb
-D:\svn\help\mcs10\nanoSPDS\src Сборка для ОАО ТПИ ОмскГражданПроект\OgpUtils\obj\Release\ogpUtils.frmBlks.resources

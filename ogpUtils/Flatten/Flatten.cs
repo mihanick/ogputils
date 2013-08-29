@@ -3,8 +3,6 @@
 
 
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
     using System.Text;
     using System.Windows.Forms;
     using System.IO;
@@ -18,12 +16,7 @@
     using Teigha.DatabaseServices;
     using Teigha.Geometry;
 
-    using Multicad;
-    using Multicad.DatabaseServices;
-    using Multicad.DatabaseServices.StandardObjects;
-    using Multicad.Geometry;
     //using Multicad.Runtime;
-    using Multicad.AplicationServices;
 
 
     namespace TeighaPlatform
@@ -31,7 +24,6 @@
         //Использование определенных типов, которые определены и в платформе и в мультикаде
         using Hatch = Teigha.DatabaseServices.Hatch;
         using Point3d = Teigha.Geometry.Point3d;
-        using Vector3d = Teigha.Geometry.Vector3d;
         using Polyline3d = Teigha.DatabaseServices.Polyline3d;
 
         class nanoFlattener
@@ -151,6 +143,7 @@
                         //ed.WriteMessage("DEBUG: Обрабатывается объект "+i+" из "+objIds.Length);
 
                         //Плющим каждый объект по одному
+                        //BUG: Нанокад валится на файле для нанокад (1).dwg (http://forum.nanocad.ru/index.php?app=core&module=attach&section=attach&attach_id=2954)
                         FlattenByPlatform(asObjId, toExplodeBlocks);
 
                         //Счетчик тут для того чтобы в дебаге можно было вывести прогресс
