@@ -1,29 +1,19 @@
-﻿using ogpUtils;
-
+﻿
 namespace BlockUtils
 {
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using System.IO;
 
-//Классы Teigha
-using Teigha.Runtime; // Не работает вместе c Multicad.Runtime
+    //Классы Teigha
+    // Не работает вместе c Multicad.Runtime
 using HostMgd.EditorInput;
 using Platform = HostMgd;
 using PlatformDb = Teigha;
 using HostMgd.ApplicationServices;
 using Teigha.DatabaseServices;
-using Teigha.Geometry;
 
-using Multicad;
-using Multicad.DatabaseServices;
-using Multicad.DatabaseServices.StandardObjects;
-using Multicad.Geometry;
-//using Multicad.Runtime;
-using Multicad.AplicationServices;
+    //using Multicad.Runtime;
 
     //Использование определенных типов, которые определены и в платформе и в мультикаде
     public struct BlockProps

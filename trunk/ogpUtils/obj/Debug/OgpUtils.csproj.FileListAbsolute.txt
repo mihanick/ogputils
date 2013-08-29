@@ -1,0 +1,13 @@
+C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\bin\ogpUtils.dll
+C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\bin\ogpUtils.pdb
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Debug\ogpUtils.ContentForm.resources
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Debug\ogpUtils.frmBlks.resources
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Debug\ogpUtils.dll
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Debug\ogpUtils.pdb
+D:\svn\help\MCS9.2\OgpUtils\OgpUtils\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\help\MCS9.2\OgpUtils\OgpUtils\obj\Debug\ogpUtils.frmBlks.resources
+D:\svn\help\MCS9.2\OgpUtils\OgpUtils\obj\Debug\ogpUtils.dll
+C:\Program Files (x86)\Nanosoft\nanoCAD 4.5\bin\ogpUtils.dll
+C:\Program Files (x86)\Nanosoft\nanoCAD 4.5\bin\ogpUtils.pdb
+D:\svn\help\MCS9.2\OgpUtils\OgpUtils\obj\Debug\ogpUtils.pdb

@@ -1,26 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.Collections.Generic;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 //Классы Teigha
 using Teigha.Runtime; // Не работает вместе c Multicad.Runtime
-using HostMgd.EditorInput;
 using Platform = HostMgd;
 using PlatformDb = Teigha;
-using HostMgd.ApplicationServices;
 using Teigha.DatabaseServices;
-using Teigha.Geometry;
 
-using Multicad;
-using Multicad.DatabaseServices;
-using Multicad.DatabaseServices.StandardObjects;
-using Multicad.Geometry;
 //using Multicad.Runtime;
-using Multicad.AplicationServices;
 
 
 namespace ogpUtils

@@ -1,0 +1,13 @@
+D:\svn\help\mcs10\nanoSPDS\nSPDSogp\LocalEx\Program\bin\ogpUtils.dll
+D:\svn\help\mcs10\nanoSPDS\nSPDSogp\LocalEx\Program\bin\ogpUtils.pdb
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Release\ResolveAssemblyReference.cache
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Release\ogpUtils.ContentForm.resources
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Release\ogpUtils.frmBlks.resources
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Release\ogpUtils.dll
+D:\svn\help\mcs10\nanoSPDS\srcOGPutils\OgpUtils\obj\Release\ogpUtils.pdb
+D:\svn\help\MCS9.2\OgpUtils\LocalEx\Program\bin\ogpUtils.dll
+D:\svn\help\MCS9.2\OgpUtils\LocalEx\Program\bin\ogpUtils.pdb
+D:\svn\help\MCS9.2\OgpUtils\OgpUtils\obj\Release\ResolveAssemblyReference.cache
+D:\svn\help\MCS9.2\OgpUtils\OgpUtils\obj\Release\ogpUtils.frmBlks.resources
+D:\svn\help\MCS9.2\OgpUtils\OgpUtils\obj\Release\ogpUtils.dll
+D:\svn\help\MCS9.2\OgpUtils\OgpUtils\obj\Release\ogpUtils.pdb

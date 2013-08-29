@@ -3,16 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OgpUtils", "OgpUtils.csproj", "{4A252328-B757-4CE3-80CA-BB93A614CDD7}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Install", "..\Install\Install.vdproj", "{03EC5D99-495A-4101-9B15-1ED2B1EFC313}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Description = Различные утилиты расширяющие функционал nanoCAD СПДС
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4A252328-B757-4CE3-80CA-BB93A614CDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A252328-B757-4CE3-80CA-BB93A614CDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A252328-B757-4CE3-80CA-BB93A614CDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A252328-B757-4CE3-80CA-BB93A614CDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03EC5D99-495A-4101-9B15-1ED2B1EFC313}.Debug|Any CPU.ActiveCfg = Release
+		{03EC5D99-495A-4101-9B15-1ED2B1EFC313}.Debug|Any CPU.Build.0 = Release
+		{03EC5D99-495A-4101-9B15-1ED2B1EFC313}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

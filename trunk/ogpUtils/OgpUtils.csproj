@@ -13,13 +13,15 @@
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TrackFileAccess>false</TrackFileAccess>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>C:\Program Files %28x86%29\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\bin\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <OutputPath>C:\Program Files %28x86%29\Nanosoft\nanoCAD 4.5\bin\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <TrackFileAccess>false</TrackFileAccess>
@@ -27,7 +29,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\nSPDSogp\LocalEx\Program\bin\</OutputPath>
+    <OutputPath>..\LocalEx\Program\bin\</OutputPath>
     <DefineConstants>
     </DefineConstants>
     <ErrorReport>prompt</ErrorReport>
@@ -35,26 +37,19 @@
     <TrackFileAccess>false</TrackFileAccess>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="hostdbmgd">
-      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.1\SDK\include\hostdbmgd.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="hostmgd">
-      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.1\SDK\include\hostmgd.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="mapimgd, Version=1.0.4769.35933, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="hostdbmgd, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\bin\mapimgd.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.5\bin\hostdbmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="mapinet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="hostmgd, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD СПДС Стройплощадка 4.0\bin\mapinet.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.5\bin\hostmgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="nrxgatemgd">
-      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.1\SDK\include\nrxgatemgd.dll</HintPath>
+    <Reference Include="nrxgatemgd, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Nanosoft\nanoCAD 4.5\bin\nrxgatemgd.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -67,24 +62,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BlockUtils.cs" />
-    <Compile Include="Flatten.cs" />
-    <Compile Include="frmBlocks.cs">
+    <Compile Include="BlockUtils\BlockUtils.cs" />
+    <Compile Include="Flatten\Flatten.cs" />
+    <Compile Include="BlockUtils\frmBlocks.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBlocks.Designer.cs">
+    <Compile Include="BlockUtils\frmBlocks.Designer.cs">
       <DependentUpon>frmBlocks.cs</DependentUpon>
     </Compile>
-    <Compile Include="MulticadLength.cs" />
-    <Compile Include="TextMath.cs" />
+    <Compile Include="ProxyManager\ProxyManager.cs" />
+    <Compile Include="TextUtils\TextMath.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmBlocks.resx">
+    <EmbeddedResource Include="BlockUtils\frmBlocks.resx">
       <DependentUpon>frmBlocks.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
